@@ -1,6 +1,8 @@
 import React from "react";
 import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg"
 
+// Penser à faire un fichier JSON puis map dessus pour remplir la section
+
 function Home() {
   return (
     <section class="home" id="Home">

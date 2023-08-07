@@ -1,5 +1,7 @@
 import React from "react";
 
+// Penser à faire un fichier JSON puis map dessus pour remplir la section
+
 function Education() {
   return (
     <section class="colCenter" id="Education">

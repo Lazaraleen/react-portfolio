@@ -11,6 +11,7 @@ import Php from "../assets/images/php.png";
 import MySql from "../assets/images/mysql.png";
 import Github from "../assets/images/github.png";
 
+// Penser à faire un fichier JSON puis map dessus pour remplir la section
 
 function Skills() {
   return (
