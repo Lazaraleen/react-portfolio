@@ -36,7 +36,7 @@ function Parallax() {
 
   return (
     <header id="header">
-        <section class="decor" id="decor">
+        <section className="decor" id="decor">
             <img src={Lune} id="lune" alt="Lune" />
             <img src={Mer} id="mer" alt="Mer" />
             <div id="text">
