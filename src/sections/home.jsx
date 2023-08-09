@@ -7,7 +7,7 @@ import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg"
 function Home() {
   return (
     <section className="home" id="Home">
-        <div className="columnCenter">
+        <div className="columnCenter animation">
             <h2>Biography</h2>
             <p>Après 16 ans d'expérience dans un supermarché dont 13 ans en tant que responsable informatique, ainsi que d'autres responsabilités, j'ai décidé de suivre un bilan de compétences en 2022 pour me reconvertir.
                 <br/><br/>A l'issue de ce bilan, il s'est avéré que le développement web serait ma nouvelle voie, aussi j'ai entrepris de me former dans ce domaine.
@@ -17,7 +17,7 @@ function Home() {
         <div className="me">
             <img src={Photo} alt="mon portrait" />
         </div>
-        <div className="columnCenter">
+        <div className="columnCenter animation">
             <h2>Contact</h2>
             <br/>
             <p>64.000 Pau, France</p>
