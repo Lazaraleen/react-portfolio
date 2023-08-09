@@ -3,7 +3,7 @@ import personne from "../assets/images/person.png";
 import enveloppe from "../assets/images/envelope.png";
 import crayon from "../assets/images/pencil.png";
 
-// Penser à faire le lien pour écrire à ma boite mail
+// Penser à rendre le formulaire de contact fonctionnel
 
 function Contact() {
   return (

@@ -12,6 +12,7 @@ import MySql from "../assets/images/mysql.png";
 import Github from "../assets/images/github.png";
 
 // Penser à faire un fichier JSON puis map dessus pour remplir la section
+// Faire plutôt une grid pour le placement
 // Rajouter une animation
 
 function Skills() {

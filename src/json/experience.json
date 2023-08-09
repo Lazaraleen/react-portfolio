@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Formation Intégrateur Web",
+        "year": "2023 - OpenClassRooms",
+        "description": "Coder en HTML5 et CSS3, créer un site dynamique en Javascript, réaliser un site en React avec des composants réutilisables, améliorer le SEO ainsi que le référencement local et l'accessibilité d'un site, initiation à la gestion de projet et aux méthodes Agile."
+    },
+    {
+        "title": "Formation Intégrateur Web",
+        "year": "2022 - Fabrique du Numérique Paloise",
+        "description": "Coder un site en HTML5 et CSS, coder des fonctions en Javascript, créer un site e-commerce sous Wordpress, pprendre les bases de PHP et MySQL."
+    },
+    {
+        "title": "Stage en immersion (intégrateur développeur web)",
+        "year": "2022 - Fabrique du Numérique Paloise",
+        "description": "Utilisation de Figma pour des wireframes et des maquettes puis coder les maquettes en HTML5 et CSS3."
+    }
+]

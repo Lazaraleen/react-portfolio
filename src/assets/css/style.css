@@ -373,8 +373,9 @@ main a {
 /* ********************************************** EXPERIENCE ********************************************** */
 
 .experience {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* flex-direction: row; */
     justify-content: space-around;
     width: 100%;
 }

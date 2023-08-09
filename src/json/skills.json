@@ -1,0 +1,44 @@
+[
+    {
+        "image": "html.png",
+        "alt": "Logo HTML",
+        "className": "",
+        "name": "HTML",
+        "level": "Advanced"
+    },
+    {
+        "image": "css.png",
+        "alt": "Logo CSS",
+        "className": "",
+        "name": "CSS",
+        "level": "Intermediate"
+    },
+    {
+        "image": "javascript.png",
+        "alt": "Logo Javascript",
+        "className": "logoGros",
+        "name": "Javascript",
+        "level": "Intermediate"
+    },
+    {
+        "image": "react.png",
+        "alt": "Logo React",
+        "className": "",
+        "name": "HTReactML",
+        "level": "Basic"
+    },
+    {
+        "image": "wordpress.png",
+        "alt": "Logo Wordpress",
+        "className": "",
+        "name": "Wordpress",
+        "level": "Basic"
+    },
+    {
+        "image": "",
+        "alt": "",
+        "className": "",
+        "name": "",
+        "level": ""
+    }
+]
