@@ -35,10 +35,45 @@
         "level": "Basic"
     },
     {
-        "image": "",
-        "alt": "",
+        "image": "figma.png",
+        "alt": "Logo Figma",
         "className": "",
-        "name": "",
-        "level": ""
+        "name": "Figma",
+        "level": "Basic"
+    },
+    {
+        "image": "Photoshop7.png",
+        "alt": "",
+        "className": "Logo Photoshop7",
+        "name": "Photoshp7",
+        "level": "Intermediate"
+    },
+    {
+        "image": "inkscape.png",
+        "alt": "",
+        "className": "Logo InkScape",
+        "name": "InkScape",
+        "level": "Basic"
+    },
+    {
+        "image": "php.png",
+        "alt": "Logo PHP",
+        "className": "",
+        "name": "PHP",
+        "level": "Basic"
+    },
+    {
+        "image": "mysql.png",
+        "alt": "Logo MySQL",
+        "className": "",
+        "name": "MySql",
+        "level": "Basic"
+    },
+    {
+        "image": "github.png",
+        "alt": "Logo Github",
+        "className": "",
+        "name": "Github",
+        "level": "Basic"
     }
 ]
