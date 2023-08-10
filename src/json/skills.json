@@ -1,76 +1,76 @@
 [
     {
-        "image": "html.png",
+        "image": "assets/images/html.png",
         "alt": "Logo HTML",
         "className": "",
         "name": "HTML",
         "level": "Advanced"
     },
     {
-        "image": "css.png",
+        "image": "../assets/images/css.png",
         "alt": "Logo CSS",
         "className": "",
         "name": "CSS",
         "level": "Intermediate"
     },
     {
-        "image": "javascript.png",
+        "image": "../assets/images/javascript.png",
         "alt": "Logo Javascript",
         "className": "logoGros",
         "name": "Javascript",
         "level": "Intermediate"
     },
     {
-        "image": "react.png",
+        "image": "../assets/images/react.png",
         "alt": "Logo React",
         "className": "",
         "name": "HTReactML",
         "level": "Basic"
     },
     {
-        "image": "wordpress.png",
+        "image": "../assets/images/wordpress.png",
         "alt": "Logo Wordpress",
         "className": "",
         "name": "Wordpress",
         "level": "Basic"
     },
     {
-        "image": "figma.png",
+        "image": "../assets/images/figma.png",
         "alt": "Logo Figma",
         "className": "",
         "name": "Figma",
         "level": "Basic"
     },
     {
-        "image": "Photoshop7.png",
+        "image": "../assets/images/Photoshop7.png",
         "alt": "",
         "className": "Logo Photoshop7",
         "name": "Photoshp7",
         "level": "Intermediate"
     },
     {
-        "image": "inkscape.png",
+        "image": "../assets/images/inkscape.png",
         "alt": "",
         "className": "Logo InkScape",
         "name": "InkScape",
         "level": "Basic"
     },
     {
-        "image": "php.png",
+        "image": "../assets/images/php.png",
         "alt": "Logo PHP",
         "className": "",
         "name": "PHP",
         "level": "Basic"
     },
     {
-        "image": "mysql.png",
+        "image": "../assets/images/mysql.png",
         "alt": "Logo MySQL",
         "className": "",
         "name": "MySql",
         "level": "Basic"
     },
     {
-        "image": "github.png",
+        "image": "../assets/images/github.png",
         "alt": "Logo Github",
         "className": "",
         "name": "Github",
