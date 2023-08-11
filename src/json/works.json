@@ -1,0 +1,29 @@
+[
+    {
+        "color": "#ff4d4d",
+        "title": "Sophie Bruel",
+        "langage": "Javascript",
+        "consignes": "Aidez votre équipe à finaliser le nouveau site internet d'une architecte d'intérieur. Vous utiliserez Javascript pour que les éléments du site se créent de manière dynamique en communiquant avec une API.",
+        "link": "https://github.com/Lazaraleen/OCR6",
+        "icone": "assets/images/photo-camera_1436221.png",
+        "alt": "logo photographe"
+    },
+    {
+        "color": "#5fa7ff",
+        "title": "Kasa",
+        "langage": "React",
+        "consignes": "Implémentez le front end de Kasa, une application de locaton de logements. Vous mettrez en place des composants avec React, et les routes de l'application avec React Router.",
+        "link": "https://kasa-logement.netlify.app/",
+        "icone": "assets/images/office_4113808.png",
+        "alt": "logo immeuble"
+    },
+    {
+        "color": "#3ae374",
+        "title": "Argent Bank",
+        "langage": "React",
+        "consignes": "Argent Bank a besoin de vous pour compléter le code de son site. Vous écrirez des appels à l'API REST pour connecter le front au back et vous modéliserez une API. Vous utiliserez également React et Redux afin de produire un code performant et gérant toutes les données de votre interface.",
+        "link": "https://github.com/Lazaraleen/OCR11",
+        "icone": "assets/images/wallet_584067.png",
+        "alt": "porte-monnaie"
+    }
+]

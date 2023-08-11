@@ -82,6 +82,7 @@ nav ul li a.active {
     color: var(--primary);
 }
 
+
 /* ************************************************* HEADER ************************************************* */
 
 .decor {
@@ -168,6 +169,7 @@ nav ul li a.active {
 main{
     background: var(--primary);
     font-family: 'Robot', sans-serif;
+    display: flex;
 }
 
 main h2 {

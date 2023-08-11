@@ -10,13 +10,17 @@ import Contact from "./contact";
 function Main() {
   return (
     <main>
-      <NavBar />
-      <Home />
-      <Skills />
-      <Education />
-      <Experience />
-      <Works />
-      <Contact />
+      <div className="barNav">
+        <NavBar />
+      </div>
+      <div className="page">
+        <Home />
+        <Skills />
+        <Education />
+        <Experience />
+        <Works />
+        <Contact />
+      </div>
     </main>
 
   );

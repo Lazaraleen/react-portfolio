@@ -1,7 +1,7 @@
 import React from "react";
 import educationData from "../json/education.json"; 
 
-// Regarder le bug de l'animation et le corriger  *** Attention, le revoir entièrement maintenant qu'il y a une map dessus
+// Regarder pour que l'animation se lance quand l'écran est dessus
 
 function Education() {
     return (
