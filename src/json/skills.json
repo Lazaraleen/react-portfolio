@@ -35,6 +35,27 @@
         "level": "Basic"
     },
     {
+        "image": "../assets/images/github.png",
+        "alt": "Logo Github",
+        "className": "",
+        "name": "Github",
+        "level": "Basic"
+    },
+    {
+        "image": "../assets/images/php.png",
+        "alt": "Logo PHP",
+        "className": "",
+        "name": "PHP",
+        "level": "Basic"
+    },
+    {
+        "image": "../assets/images/mysql.png",
+        "alt": "Logo MySQL",
+        "className": "",
+        "name": "MySql",
+        "level": "Basic"
+    },
+    {
         "image": "../assets/images/figma.png",
         "alt": "Logo Figma",
         "className": "",
@@ -53,27 +74,6 @@
         "alt": "",
         "className": "Logo InkScape",
         "name": "InkScape",
-        "level": "Basic"
-    },
-    {
-        "image": "../assets/images/php.png",
-        "alt": "Logo PHP",
-        "className": "",
-        "name": "PHP",
-        "level": "Basic"
-    },
-    {
-        "image": "../assets/images/mysql.png",
-        "alt": "Logo MySQL",
-        "className": "",
-        "name": "MySql",
-        "level": "Basic"
-    },
-    {
-        "image": "../assets/images/github.png",
-        "alt": "Logo Github",
-        "className": "",
-        "name": "Github",
         "level": "Basic"
     }
 ]

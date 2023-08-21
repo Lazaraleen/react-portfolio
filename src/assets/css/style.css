@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
     scroll-behavior: smooth;
 }
 
@@ -20,8 +19,6 @@ body {
     min-height: 100vh;
     background-color: var(--primary);
     overflow-x: hidden;
-    /* font-family: var(--body-font); */
-    /* font-size: var(--normal-font-size); */
     color: var(--font);
 }
 
@@ -230,6 +227,19 @@ main a {
     }
 } */
 
+.animation {
+    opacity: 0; 
+    transform: translateY(70%); 
+    transition: 
+    transform 1s ease-out 0.3s,
+    opacity 1s ease-out 0.3s;
+}
+
+.animation.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .home div {
     width: 25%;
     margin: 0 2em;
@@ -274,7 +284,7 @@ main a {
     gap: 2em;
 }
 
-.skillsGrid {
+/* .skillsGrid {
     opacity: 0; 
     transform: translateX(100%); 
     animation: fadeInFromRight 1.5s forwards; 
@@ -285,6 +295,19 @@ main a {
         opacity: 1;
         transform: translateX(0);
     }
+} */
+
+.skillsGrid {
+    opacity: 0; 
+    transform: translateX(100%); 
+    transition: 
+    transform 1s ease-out 0.3s,
+    opacity 1s ease-out 0.3s;
+}
+
+.skillsGrid.active {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .skills aside {
@@ -326,7 +349,20 @@ main a {
     position: relative;
 }
 
-.diplome {
+.animEdu {
+    opacity: 0; 
+    transform: translateX(-100%); 
+    transition: 
+    transform 1s ease-out 0.3s,
+    opacity 1s ease-out 0.3s;
+}
+
+.animEdu.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* .diplome {
     opacity: 0; 
     transform: translateX(-100%); 
     animation: fadeInFromLeft 1.5s forwards; 
@@ -358,6 +394,14 @@ main a {
 .diplome:nth-child(6) {
     animation-delay: 1.5s;
 }
+
+.diplome:nth-child(7) {
+    animation-delay: 1.8s;
+}
+
+.diplome:nth-child(8) {
+    animation-delay: 2.1s;
+} */
 
 .year {
     position: absolute;

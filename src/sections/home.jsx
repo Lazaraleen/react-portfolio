@@ -1,13 +1,28 @@
 import React from "react";
+import {useEffect, useRef} from "react";
 import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg"
 
 // Penser à faire un fichier JSON puis map dessus pour remplir la section
 // Rajouter une animation
 
 function Home() {
+    const bioRef = useRef();
+    const contRef = useRef();
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        if(entries[0].isIntersecting) {
+            bioRef.current.classList.add("active");
+            contRef.current.classList.add("active");
+        }
+      })
+      observer.observe(bioRef.current);  
+      observer.observe(contRef.current);  
+    }, []);
+
   return (
     <section className="home" id="Home">
-        <div className="columnCenter animation">
+        <div ref={bioRef} className="columnCenter animation">
             <h2>Biography</h2>
             <p>Après 16 ans d'expérience dans un supermarché dont 13 ans en tant que responsable informatique, ainsi que d'autres responsabilités, j'ai décidé de suivre un bilan de compétences en 2022 pour me reconvertir.
                 <br/><br/>A l'issue de ce bilan, il s'est avéré que le développement web serait ma nouvelle voie, aussi j'ai entrepris de me former dans ce domaine.
@@ -17,7 +32,7 @@ function Home() {
         <div className="me">
             <img src={Photo} alt="mon portrait" />
         </div>
-        <div className="columnCenter animation">
+        <div ref={contRef} className="columnCenter animation">
             <h2>Contact</h2>
             <br/>
             <p>64.000 Pau, France</p>

@@ -1,17 +1,24 @@
 import React from "react";
+import {useEffect, useRef} from "react";
 import skillsData from "../json/skills.json";
 
-// Maper sur le fichier JSON pour remplir la section puis supprimer les imports des images
-// Le mapping sur images ne marche pas ... pourquoi?
-// Faire plutôt une grid pour le placement
-// Rajouter une animation
-
 function Skills() {
+    const skillRef = useRef();
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        if(entries[0].isIntersecting) {
+            skillRef.current.classList.add("active");
+        }
+      })
+      observer.observe(skillRef.current);
+    }, []);
+
   return (
     <section className="colCenter skills" id="Skills">
         <h2>Skills</h2>
         <div>
-            <article className="skillsGrid">
+            <article ref={skillRef} className="skillsGrid">
                 {skillsData && skillsData.map((item) => (
                     <aside key={item.name}>
                         <div className="bubbleGrey">
