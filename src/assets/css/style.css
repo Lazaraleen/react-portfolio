@@ -165,7 +165,7 @@ nav ul li a.active {
 /* ************************************************* MAIN ************************************************* */
 
 .page {
-    width: 95%;
+    width: 90%;
     position: absolute;
     right: 0;
 }
@@ -404,6 +404,24 @@ main a {
 .bubbleGrey .logoGros {
     width: 80%;
     height: 60%;
+}
+
+@media (max-width: 968px) { 
+    .skillsGrid {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width: 768px) { 
+    .skillsGrid {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 450px) { 
+    .skillsGrid {
+        grid-template-columns: auto auto;
+    }
 }
 
 /* ************************************************* EDUCATION ************************************************* */
