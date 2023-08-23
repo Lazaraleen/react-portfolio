@@ -4,6 +4,9 @@ import '../assets/css/style.css';
 import Lune from "../assets/images/Lune.png";
 import Mer from "../assets/images/Mer.png";
 import Decor from "../assets/images/Decor.png";
+// import Lune2 from "../assets/images/Lune2.png";
+// import Mer2 from "../assets/images/Mer2.png";
+// import Decor2 from "../assets/images/Decor2.png";
 
 function Parallax() {
     useEffect(() => {
@@ -46,6 +49,16 @@ function Parallax() {
             <a href="#Home" id="btn">Portfolio here or scroll</a>
             <img src={Decor} id="foret" alt="Forêt" />
         </section>
+        {/* <section className="decor" id="decor2">
+            <img src={Lune2} id="lune" alt="Lune" />
+            <img src={Mer2} id="mer" alt="Mer" />
+            <div id="text">
+                <h1>JAYLE</h1>
+                <h2>Myriam-Espérance</h2>
+            </div>
+            <a href="#Home" id="btn">Portfolio here or scroll</a>
+            <img src={Decor2} id="foret" alt="Forêt" />
+        </section> */}
     </header>
   );
 }

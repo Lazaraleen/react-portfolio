@@ -22,6 +22,7 @@ function Home() {
 
   return (
     <section className="home" id="Home">
+      <div className="columnsContainer">
         <div ref={bioRef} className="columnCenter animation">
             <h2>Biography</h2>
             <p>Après 16 ans d'expérience dans un supermarché dont 13 ans en tant que responsable informatique, ainsi que d'autres responsabilités, j'ai décidé de suivre un bilan de compétences en 2022 pour me reconvertir.
@@ -41,6 +42,7 @@ function Home() {
             <br/>
             <a href="https://www.linkedin.com/in/myriam-esp%C3%A9rance-jayle-19b807229/"><p className="linkedin">Link: LinkedIn</p></a>            
         </div>
+      </div>
     </section>
   );
 }
