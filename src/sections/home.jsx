@@ -1,13 +1,12 @@
 import React from "react";
 import {useEffect, useRef} from "react";
-import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg"
-
-// Penser à faire un fichier JSON puis map dessus pour remplir la section
-// Rajouter une animation
+import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg";
+import Photo2 from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970-min.jpg";
 
 function Home() {
     const bioRef = useRef();
     const contRef = useRef();
+    const largeurEcran = window.innerWidth;
   
     useEffect(() => {
       const observer = new IntersectionObserver(entries => {
@@ -31,7 +30,11 @@ function Home() {
             </p>
         </div>
         <div className="me">
+          {largeurEcran >= 768 ? (
             <img src={Photo} alt="mon portrait" />
+          ) : (
+            <img src={Photo2} alt="mon portrait" />
+          )}
         </div>
         <div ref={contRef} className="columnCenter animation">
             <h2>Contact</h2>

@@ -1,10 +1,6 @@
 import React from "react";
 import worksData from "../json/works.json";
 
-// Penser à faire un lien vers les projets et faire le CSS de LINK
-// Penser à faire un grid pour les enveloppes au cas où il en ait plus plus tard
-// Penser à faire un fichier JSON puis map dessus pour remplir la section
-
 function Works() {
   return (
     <section className="colCenter" id="Work">

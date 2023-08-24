@@ -173,9 +173,12 @@ nav ul li a.active {
     .decor {
         padding: 80px;
     }
+    #foret {
+        z-index: 1;
+    }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
     #btn {
         font-size: 1em;
     }
@@ -333,7 +336,7 @@ main a {
     .home .me {
         margin: 0 auto;
     }
-  
+
     .columnCenter {
         width: 90%; /* Force la largeur maximale */
         display: flex; /* Utiliser flexbox pour aligner horizontalement */
@@ -356,8 +359,6 @@ main a {
         grid-column: 1 / 2;
     }
 }
-
-
 
 
 /* ************************************************* SKILLS ************************************************* */
@@ -959,12 +960,12 @@ form .button-area {
     cursor: pointer;
     border-radius: 5px;
     padding: 13px 25px;
-    background: var(--secondary);
+    background: #247896;
     transition: background 0.3s ease;
 }
 
 .button-area button:hover {
-    background: var(--secondary);
+    background: #247896;
 }
 
 .button-area span {
