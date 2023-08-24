@@ -1,8 +1,6 @@
 import React from "react";
 import { useEffect, useState } from 'react';
 
-// Voir comment faire pour que la section active s'active un peu plus tôt...
-
 function NavBar() {
   const [activeLinkIndex, setActiveLinkIndex] = useState(0);
 

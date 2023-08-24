@@ -162,6 +162,34 @@ nav ul li a.active {
     border: 1px solid var(--primary);
 }
 
+.page section {
+    margin-top: 10em;
+}
+
+@media (max-width: 968px) {
+    #btn {
+        font-size: 1.3em;
+    }
+    .decor {
+        padding: 80px;
+    }
+}
+
+@media (max-width: 968px) {
+    #btn {
+        font-size: 1em;
+    }
+    .decor {
+        padding: 40px;
+    }
+    #text h1 {
+        font-size: 12vw;
+    }
+    #text h2 {
+        font-size: 8vw;
+    }
+}
+
 /* ************************************************* MAIN ************************************************* */
 
 .page {
@@ -193,7 +221,6 @@ main section {
     position: relative;
     margin: 0 7em;
     margin-bottom: 10em;
-    /* height: 100vh; */
 }
 
 main #Contact {
