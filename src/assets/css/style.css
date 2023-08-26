@@ -79,6 +79,12 @@ nav ul li a.active {
     color: var(--primary);
 }
 
+@media (max-width: 768px) {
+    nav {
+        padding-top: 15px;
+    }
+}
+
 
 /* ************************************************* HEADER ************************************************* */
 
@@ -245,6 +251,12 @@ main a {
 @media (max-width: 968px) {
     main section {
         margin: 0 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    main section {
+        margin: 0 2em;
     }
 }
 
@@ -583,9 +595,16 @@ main a {
     .diplome {
         flex-direction: column;
     }
-
     .dip {
         width: 300px;
+        padding: 0 3em;
+        padding-top: 1.8em;
+    }
+}
+
+@media (max-width: 370px) {
+    .dip {
+        width: 250px;
         padding: 0 3em;
         padding-top: 1.8em;
     }
@@ -682,8 +701,19 @@ main a {
 
 @media (max-width: 400px) {
     .box {
-        width: 280px;
-        height: 280px;
+        width: 270px;
+        height: 270px;
+    }
+    .box h3 {
+        padding-bottom: 0.5em;
+        font-size: 1.1em;
+    }    
+    .box h4 {
+        padding-bottom: 1.1em;
+        font-size: 1em;
+    }
+    .box p {
+        font-size: 0.9em;
     }
 }
 
