@@ -3,8 +3,7 @@ import {useEffect, useRef} from "react";
 import skillsData from "../json/skills.json";
 
 function Skills() {
-    const skillRef = useRef();
-  
+    const skillRef = useRef();  
     useEffect(() => {
       const observer = new IntersectionObserver(entries => {
         if(entries[0].isIntersecting) {
