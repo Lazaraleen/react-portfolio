@@ -82,6 +82,10 @@ nav ul li a.active {
 @media (max-width: 768px) {
     nav {
         padding-top: 15px;
+        width: 95vh;
+    }
+    nav ul li a {
+        padding: 6px 10px;
     }
 }
 
@@ -264,7 +268,6 @@ main a {
 
 .home {
     display: flex;
-    /* flex-direction: row;  */
     justify-content: center;
     text-align: justify;
 }
@@ -278,19 +281,6 @@ main a {
     margin: 0 auto; 
     width: 100%;
 }
-
-/* .animation {
-    opacity: 0; 
-    transform: translateY(70%); 
-    animation: fadeInFromBottom 1.5s forwards; 
-}
-
-@keyframes fadeInFromBottom {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 
 .animation {
     opacity: 0; 
@@ -350,9 +340,9 @@ main a {
     }
 
     .columnCenter {
-        width: 90%; /* Force la largeur maximale */
-        display: flex; /* Utiliser flexbox pour aligner horizontalement */
-        justify-content: center; /* Centrer horizontalement les éléments */ 
+        width: 90%; 
+        display: flex; 
+        justify-content: center; 
     }
     
     .home .columnCenter{
@@ -360,9 +350,9 @@ main a {
     }
   
     .me img {
-      width: 70%; /* Réduire la largeur de l'image */
-      height: auto; /* Ajuster la hauteur automatiquement */
-      margin-bottom: 1em; /* Ajouter un espace sous l'image */
+      width: 70%;
+      height: auto; 
+      margin-bottom: 1em;
     }
 }
 
@@ -389,19 +379,6 @@ main a {
 	grid-template-columns: auto auto auto auto auto auto;
     gap: 2em;
 }
-
-/* .skillsGrid {
-    opacity: 0; 
-    transform: translateX(100%); 
-    animation: fadeInFromRight 1.5s forwards; 
-}
-
-@keyframes fadeInFromRight {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-} */
 
 .skillsGrid {
     opacity: 0; 
@@ -432,6 +409,10 @@ main a {
 .bubbleGrey img {
     width: 90%;
     height: 68%;
+    border-radius: 1em;
+    transition: 
+    height 1s ease-out 0.3s,
+    width 1s ease-out 0.3s;
 }
 
 .bubbleGrey img:hover {
@@ -485,47 +466,6 @@ main a {
     opacity: 1;
     transform: translateX(0);
 }
-
-/* .diplome {
-    opacity: 0; 
-    transform: translateX(-100%); 
-    animation: fadeInFromLeft 1.5s forwards; 
-}
-
-@keyframes fadeInFromLeft {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.diplome:nth-child(2) {
-    animation-delay: 0.3s;
-}
-
-.diplome:nth-child(3) {
-    animation-delay: 0.6s;
-}
-
-.diplome:nth-child(4) {
-    animation-delay: 0.9s;
-}
-
-.diplome:nth-child(5) {
-    animation-delay: 1.2s;
-}
-
-.diplome:nth-child(6) {
-    animation-delay: 1.5s;
-}
-
-.diplome:nth-child(7) {
-    animation-delay: 1.8s;
-}
-
-.diplome:nth-child(8) {
-    animation-delay: 2.1s;
-} */
 
 .year {
     position: absolute;
@@ -1002,6 +942,10 @@ form .button-area {
     font-size: 17px;
     margin-left: 30px;
     display: none;
+}
+
+form .field input::placeholder, form .message textarea::placeholder {
+    color: #585858; 
 }
 
 @media (max-width: 968px) {

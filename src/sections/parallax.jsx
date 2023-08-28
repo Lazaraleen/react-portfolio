@@ -11,7 +11,6 @@ import Decor2 from "../assets/images/Decor2.png";
 function Parallax() {
   const largeurEcran = window.innerWidth;
 
-
     useEffect(() => {
         const moon = document.getElementById('lune');
         const sea = document.getElementById('mer');
@@ -31,8 +30,7 @@ function Parallax() {
           header.style.top = value * 0.85 + 'px';
         };
     
-        window.addEventListener('scroll', handleScroll);
-    
+        window.addEventListener('scroll', handleScroll);    
         return () => {
           // Nettoyer les événements lorsque le composant est démonté
           window.removeEventListener('scroll', handleScroll);
@@ -48,7 +46,6 @@ function Parallax() {
             ) : (
               <img src={Lune2} id="lune" alt="Lune" />
             )}
-
             {largeurEcran >= 968 ? (
               <img src={Mer} id="mer" alt="Mer" />
             ) : (
