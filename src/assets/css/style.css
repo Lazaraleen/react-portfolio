@@ -32,11 +32,16 @@ h3 {
 
 /* ************************************************* NAVIGATION ************************************************* */
 
+.barNav {
+    width: 100%;
+}
+
 nav {
     position: fixed;
+    top: 0;
     left: 0;
     font-family: 'Poppins', sans-serif;
-    width: 100vh;
+    height: 100%;
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
@@ -823,7 +828,7 @@ main a {
     width: 715px;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0,0.05);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
     padding: 20px;
 }
 

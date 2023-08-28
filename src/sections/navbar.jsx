@@ -18,7 +18,7 @@ function NavBar() {
 
     for (let i = 0; i < sectionIds.length; i++) {
       const section = document.getElementById(sectionIds[i]);
-      if (section && currentPosition > section.offsetTop - 50) {
+      if (section && currentPosition > section.offsetTop + 50) {
         setActiveLinkIndex(i);
       }
     }
