@@ -4,12 +4,12 @@ import '../assets/css/style.css';
 import Lune from "../assets/images/Lune.png";
 import Mer from "../assets/images/Mer.png";
 import Decor from "../assets/images/Decor.png";
-// import Lune2 from "../assets/images/Lune2.png";
-// import Mer2 from "../assets/images/Mer2.png";
-// import Decor2 from "../assets/images/Decor2.png";
+import Lune2 from "../assets/images/Lune2.png";
+import Mer2 from "../assets/images/Mer2.png";
+import Decor2 from "../assets/images/Decor2.png";
 
 function Parallax() {
-  // const largeurEcran = window.innerWidth;
+  const largeurEcran = window.innerWidth;
 
     useEffect(() => {
         const moon = document.getElementById('lune');
@@ -41,24 +41,24 @@ function Parallax() {
   return (
     <header id="header">
         <section className="decor" id="decor">
-          <img src={Lune} id="lune" alt="Lune" />
-            {/* {largeurEcran >= 968 ? (
+          {/* <img src={Lune} id="lune" alt="Lune" /> */}
+            {largeurEcran >= 968 ? (
               <img src={Lune} id="lune" alt="Lune" />
             ) : (
               <img src={Lune2} id="lune" alt="Lune" />
-            )} */}
-          <img src={Mer} id="mer" alt="Mer" />
-            {/* {largeurEcran >= 968 ? (
+            )}
+          {/* <img src={Mer} id="mer" alt="Mer" /> */}
+            {largeurEcran >= 968 ? (
               <img src={Mer} id="mer" alt="Mer" />
             ) : (
               <img src={Mer2} id="mer" alt="Mer" />
-            )} */}
-          <img src={Decor} id="foret" alt="Forêt" />
-            {/* {largeurEcran >= 968 ? (
+            )}
+          {/* <img src={Decor} id="foret" alt="Forêt" /> */}
+            {largeurEcran >= 968 ? (
               <img src={Decor} id="foret" alt="Forêt" />
               ) : (
               <img src={Decor2} id="foret" alt="Forêt" />
-            )} */}
+            )}
             <div id="text">
                 <h1>JAYLE</h1>
                 <h2>Myriam-Espérance</h2>
