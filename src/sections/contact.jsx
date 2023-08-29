@@ -30,16 +30,16 @@ function Contact() {
                 <form ref={form} onSubmit={sendEmail} action="#">
                     <div className="dbl-field">
                         <div className="field">
-                            <input type="text" name="user_name" placeholder="Entrez votre nom" />
+                            <input type="text" name="user_name" placeholder="Entrez votre nom" required />
                             <img src={personne} alt="icône personne" />
                         </div>
                         <div className="field">
-                            <input type="text" name="user_email" placeholder="Entrez votre adresse mail" />
+                            <input type="text" name="user_email" placeholder="Entrez votre adresse mail" required />
                             <img src={enveloppe} alt="icône enveloppe" />
                         </div>
                     </div>
                     <div className="message">
-                        <textarea name="message" placeholder="Ecrivez votre message"></textarea>
+                        <textarea name="message" placeholder="Ecrivez votre message" required ></textarea>
                         <img src={crayon} alt="icône crayon" />
                     </div>
                     <div className="button-area">

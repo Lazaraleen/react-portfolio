@@ -32,9 +32,14 @@ h3 {
 
 /* ************************************************* NAVIGATION ************************************************* */
 
+/* .barNav {
+    position: static;
+} */
+
 nav {
     position: fixed;
-    left: 0;
+    /* left: 0;
+    bottom: 45%; */
     font-family: 'Poppins', sans-serif;
     width: 100vh;
     padding-top: 30px;
@@ -71,6 +76,7 @@ nav ul li a {
     padding: 6px 15px;
     border-radius: 20px;
     color: var(--font);
+    font-size: 0.9em;
 }
 
 nav ul li a:hover,
@@ -88,9 +94,16 @@ nav ul li a.active {
     }
 }
 
+.page {
+    overflow: auto;
+}
+
 
 /* ************************************************* HEADER ************************************************* */
 
+header {
+    z-index: 5;
+}
 .decor {
     position: relative;
     font-family: 'Poppins', sans-serif;
@@ -215,7 +228,6 @@ main {
     font-family: 'Robot', sans-serif;
     display: flex;
     width: 100%;
-    position: relative;
 }
 
 main h2 {
@@ -238,6 +250,7 @@ main section {
 
 main #Contact {
     margin-bottom: 5em;
+    margin-top: 10em;
 }
 
 main a {
@@ -970,10 +983,13 @@ form .field input::placeholder, form .message textarea::placeholder {
     form .field input, form .message textarea {
         font-size: 12px;
     }
+    main #Contact {
+        margin: 10em 3em 5em 3em;
+    }
 }
 
 @media (max-width: 500px) {
-    #Contact {
-        margin: 0 2em;
+    main #Contact {
+        margin: 10em 2em 5em 2em;
     }
 }
