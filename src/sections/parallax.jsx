@@ -1,12 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import '../assets/css/style.css';
-import Lune from "../assets/images/Lune.png";
-import Mer from "../assets/images/Mer.png";
-import Decor from "../assets/images/Decor.png";
-import Lune2 from "../assets/images/Lune3.png";
-import Mer2 from "../assets/images/Mer3.png";
-import Decor2 from "../assets/images/Decor3.png";
+import Lune from "../assets/images/Lune.webp";
+import Mer from "../assets/images/Mer.webp";
+import Decor from "../assets/images/Decor.webp";
+import Lune2 from "../assets/images/Lune3.webp";
+import Mer2 from "../assets/images/Mer3.webp";
+import Decor2 from "../assets/images/Decor3.webp";
 
 function Parallax() {
   const largeurEcran = window.innerWidth;
