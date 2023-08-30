@@ -265,6 +265,13 @@ main a {
     justify-content: center;
 }
 
+@media (max-width: 1050px) {
+    main section {
+        margin: 0 2em;
+    }
+}
+
+
 @media (max-width: 968px) {
     main section {
         margin: 0 3em;
@@ -309,7 +316,7 @@ main a {
 }
 
 .home div {
-    margin: 0 2em;
+    margin: 0 1em;
 }
 
 .me img {
@@ -363,7 +370,7 @@ main a {
     }
   
     .me img {
-      width: 70%;
+      width: 50%;
       height: auto; 
       margin-bottom: 1em;
     }
