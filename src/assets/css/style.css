@@ -371,7 +371,7 @@ main a {
   
     .me img {
       width: 50%;
-      height: auto; 
+      height: 50%; 
       margin-bottom: 1em;
     }
 }
@@ -798,6 +798,7 @@ main a {
     top: 50px;
     z-index: 3;
     width: 70px;
+    height: 70px;
 }
 
 .card .textCard::before {
