@@ -9,4 +9,4 @@ This project was bootstrapped with [Create React App]
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
 
-Le portfolio est très bien en version desktop, malheureusement la version responsive a des soucis dû au fait que que la navbar est en position fixed. Tout ceci m'invite à revoir comment faire mon portfolio afin de ne pas avoir de soucis avec la navbar. Mais je laisse le code ici avec un lien vers l'affichage pour ceux qui aimerai y piocher des idées. ^^ https://jayle-portfolio.netlify.app/
+Retrouvez le visuel de ce portfolio sur : https://jayle-portfolio.netlify.app/
