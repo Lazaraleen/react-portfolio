@@ -24,7 +24,7 @@ function Skills() {
                             <img src={item.image} alt={item.alt} className={item.className}/>
                         </div>
                         <h3>{item.name}</h3>
-                        <p>{item.level}</p>
+                        {/* <p>{item.level}</p> */}
                     </aside>
                 ))}
             </article>            
