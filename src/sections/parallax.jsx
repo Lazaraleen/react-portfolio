@@ -35,7 +35,7 @@ function Parallax() {
           // Nettoyer les événements lorsque le composant est démonté
           window.removeEventListener('scroll', handleScroll);
         };
-      }, []); // La dépendance vide [] assure que le useEffect ne s'exécute qu'une seule fois lors du montage initial.
+      }, []); 
     
 
   return (
