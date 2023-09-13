@@ -1,7 +1,7 @@
 import React from "react";
 import {useEffect, useRef} from "react";
-import Photo from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970.jpg";
-import Photo2 from "../assets/images/7ba5bedd-f819-4bf7-a399-b0f7cc2b8970-min.jpg";
+import Photo from "../assets/images/avatar.jpg";
+import Photo2 from "../assets/images/avatar2-min.jpg";
 
 function Home() {
     const bioRef = useRef();
