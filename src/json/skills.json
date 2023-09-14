@@ -54,12 +54,6 @@
         "name": "Figma"
     },
     {
-        "image": "../assets/images/Photoshop7.png",
-        "alt": "",
-        "className": "Logo Photoshop7",
-        "name": "Photoshop7"
-    },
-    {
         "image": "../assets/images/inkscape.png",
         "alt": "",
         "className": "Logo InkScape",

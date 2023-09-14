@@ -15,6 +15,7 @@ function Parallax() {
         const moon = document.getElementById('lune');
         const sea = document.getElementById('mer');
         const text = document.getElementById('text');
+        const search = document.getElementById('recherche');
         const btn = document.getElementById('btn');
         const forest = document.getElementById('foret');
         const header = document.getElementById('header');
@@ -26,6 +27,8 @@ function Parallax() {
           forest.style.top = value * 0.05 + 'px';
           text.style.marginRight = value * 4 + 'px';
           text.style.marginTop = value * 1.2 + 'px';
+          search.style.marginLeft = value * 4 + 'px';
+          search.style.marginTop = value * 0.2 + 'px';
           btn.style.marginTop = value * 1.2 + 'px';
           header.style.top = value * 0.85 + 'px';
         };
@@ -59,10 +62,15 @@ function Parallax() {
               ) : (
               <img src={Decor2} id="foret" alt="Forêt" />
             )}
-            <div id="text">
-                <h1>JAYLE</h1>
-                <h2>Myriam-Espérance</h2>
-            </div>
+            <article id="script">
+              <div id="text">
+                  <h1>JAYLE</h1>
+                  <h2>Myriam-Espérance</h2>
+              </div>
+              <div id="recherche">
+                  <h3>Développeuse Front-End React</h3>
+              </div>
+            </article>
             <a href="#Home" id="btn">Portfolio here or scroll</a>
         </section>
     </header>

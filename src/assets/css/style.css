@@ -151,7 +151,7 @@ header {
     z-index: 10;
 }
 
-#text {
+#script {
     position: absolute;
     white-space: nowrap;
     z-index: 9;
@@ -167,6 +167,13 @@ header {
 #text h2 {
     font-size: 5vw;
     -webkit-text-stroke: 2px var(--primary);
+    text-align: center;
+    line-height: 1em;
+}
+
+#recherche h3 {
+    font-size: 2.5vw;
+    -webkit-text-stroke: 1.7px var(--primary);
     text-align: center;
     line-height: 1em;
 }
@@ -212,6 +219,9 @@ header {
     }
     #text h2 {
         font-size: 8vw;
+    }
+    #recherche h3 {
+        font-size: 5vw;
     }
 }
 
@@ -393,10 +403,10 @@ main a {
 }
 
 .skillsGrid {
-    margin: 2em;
+    margin: 2em 0;
     display: grid;
     justify-content: space-around;
-	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-columns: 15% 15% 15% 15% 15% 15%;
     gap: 2em;
 }
 
@@ -435,11 +445,11 @@ main a {
     width 1s ease-out 0.3s;
 }
 
-.bubbleGrey img:hover {
+.bubbleGrey:hover {
     background: #fff;
-    border-radius: 9em;
+    /* border-radius: 9em;
     width: 4.5em;
-    height: 6em;
+    height: 6em; */
 }
 
 .bubbleGrey .logoGros {
@@ -449,19 +459,19 @@ main a {
 
 @media (max-width: 968px) { 
     .skillsGrid {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 15% 15% 15% 15%;
     }
 }
 
 @media (max-width: 768px) { 
     .skillsGrid {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 15% 15% 15%;
     }
 }
 
 @media (max-width: 450px) { 
     .skillsGrid {
-        grid-template-columns: auto auto;
+        grid-template-columns: 15% 15%;
     }
 }
 
@@ -646,6 +656,14 @@ main a {
     padding-bottom: 1.5em;
     text-align: center;
 }
+
+/* Applique une bordure fixe uniquement sur Firefox puisqu'il ne supporte pas l'animation choisie */
+@-moz-document url-prefix() {
+    .box {
+      border: 4px solid var(--border2);
+      border-radius: 20px;
+    }
+  }
 
 @media (max-width: 1200px) {
     .experience {

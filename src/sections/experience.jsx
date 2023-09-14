@@ -4,7 +4,7 @@ import experienceData from "../json/experience.json"
 function Experience() {
   return (
     <section className="colCenter" id="Experience">
-        <h2>Expérience</h2>
+        <h2>Experience</h2>
         <article className="experience">
             {experienceData.map((item, index) => (
                 <aside className="box" key={index+30}>
