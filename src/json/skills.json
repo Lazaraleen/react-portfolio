@@ -24,6 +24,12 @@
         "name": "React"
     },
     {
+        "image": "../assets/images/angular.png",
+        "alt": "Logo Angular",
+        "className": "",
+        "name": "Angular"
+    },
+    {
         "image": "../assets/images/wordpress.png",
         "alt": "Logo Wordpress",
         "className": "",

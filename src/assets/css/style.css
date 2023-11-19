@@ -739,7 +739,8 @@ main a {
     font-weight: 700;
     letter-spacing: 0.15em;
     background: #fff;
-    padding: 5px 25px;
+    text-align: center;
+    padding: 5px 0;
 }
 
 .card {
@@ -840,16 +841,29 @@ main a {
     .works {
         grid-template-columns: auto;
     }
+
+    .card {
+        height: 200px;
+    }
+
+    .contentCard h5 {
+        display: none;
+    }
+
+    .contentCard p {
+        display: none;
+    }
 }
 
 @media (max-width: 370px) {
     .card {
         width: 250px;
-        height: 450px;
     }
+
     .textCard {
         height: 320px;
     }
+
     .imgCard {
         height: 150px;
     }

@@ -18,6 +18,15 @@
         "alt": "logo immeuble"
     },
     {
+        "color": "#f9f852",
+        "title": "77events",
+        "langage": "React",
+        "consignes": "Le site 77events a été commencé par un développeur qui n'a pu le finir... certains bugs étaient connus qu'il fallait corriger, plus tout autre bug supplémentaire non répertoriés. Ecrire quelques tests unitaires.",
+        "link": "https://724events.netlify.app/",
+        "icone": "assets/images/event.png",
+        "alt": "event"
+    },
+    {
         "color": "#3ae374",
         "title": "Argent Bank",
         "langage": "React",
@@ -25,5 +34,41 @@
         "link": "https://github.com/Lazaraleen/OCR11",
         "icone": "assets/images/wallet_584067.png",
         "alt": "porte-monnaie"
+    },
+    {
+        "color": "#ffa642",
+        "title": "Air Drone",
+        "langage": "Javascript - Leaflet",
+        "consignes": "Créer un site de livraison de drone avec une page d'accueil présentant une carte où les différents drones en activité circulent, ainsi qu'une page pour la gestion des drones.",
+        "link": "https://drone-livraison.netlify.app/",
+        "icone": "assets/images/drone.png",
+        "alt": "drone"
+    },
+    {
+        "color": "#7252f8",
+        "title": "Blue House",
+        "langage": "React - Leaflet",
+        "consignes": "Créer un site de locations avec une carte sur laquelle les locations sont indiquées, les différentes locations (affichage dynamique qui ne montre que les locations suivant ceux qui étaient visibles sur la carte, que l'on zoome desus ou la déplace avec la souris) doivent être sur la page d'accueil avec des boutons de tri.",
+        "link": "https://drone-livraison.netlify.app/",
+        "icone": "assets/images/house.png",
+        "alt": "house"
+    },
+    {
+        "color": "#ff4d4d",
+        "title": "Memory Game",
+        "langage": "Javascript",
+        "consignes": "Un jeu de Memory aux motifs animaliers pour mon neveu.",
+        "link": "https://memory-for-fun.netlify.app/",
+        "icone": "assets/images/game.png",
+        "alt": "game"
+    },
+    {
+        "color": "#5fa7ff",
+        "title": "Pastel Simon",
+        "langage": "Javascript",
+        "consignes": "Un petit jeu de Javascript pour le célèbre jeu Simon où il faut reproduire la séquence jusqu'à 10 éléments.",
+        "link": "https://pastelsimon.netlify.app/",
+        "icone": "assets/images/game2.png",
+        "alt": "game"
     }
 ]
