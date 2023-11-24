@@ -2,7 +2,7 @@
     {
         "color": "#ff4d4d",
         "title": "Sophie Bluel",
-        "langage": "Javascript",
+        "langage": "Javascript - API",
         "consignes": "Aidez votre équipe à finaliser le nouveau site internet d'une architecte d'intérieur. Vous utiliserez Javascript pour que les éléments du site se créent de manière dynamique en communiquant avec une API.",
         "link": "https://github.com/Lazaraleen/OCR6",
         "icone": "assets/images/photo-camera_1436221.png",
@@ -29,7 +29,7 @@
     {
         "color": "#3ae374",
         "title": "Argent Bank",
-        "langage": "React",
+        "langage": "React - API",
         "consignes": "Argent Bank a besoin de vous pour compléter le code de son site. Vous écrirez des appels à l'API REST pour connecter le front au back et vous modéliserez une API. Vous utiliserez également React et Redux afin de produire un code performant et gérant toutes les données de votre interface.",
         "link": "https://github.com/Lazaraleen/OCR11",
         "icone": "assets/images/wallet_584067.png",
@@ -70,5 +70,14 @@
         "link": "https://pastelsimon.netlify.app/",
         "icone": "assets/images/game2.png",
         "alt": "game"
+    },
+    {
+        "color": "#f9f852",
+        "title": "Step Exercice",
+        "langage": "Angular",
+        "consignes": "Un projet pour acquérir les bases d'Angular, en suivant la maquette fournie d'un ancien projet de STEP, la consigne était de reproduire le site en single page. Il faut découper la maquette en différents éléments pour un rendu dynamique. PROJET EN COURS.",
+        "link": "https://step-exercice.vercel.app/",
+        "icone": "assets/images/site.png",
+        "alt": "site"
     }
 ]

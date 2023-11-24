@@ -12,6 +12,12 @@
         "name": "CSS"
     },
     {
+        "image": "../assets/images/sass.png",
+        "alt": "Logo Sass",
+        "className": "",
+        "name": "Sass"
+    },
+    {
         "image": "../assets/images/javascript.png",
         "alt": "Logo Javascript",
         "className": "logoGros",
