@@ -48,12 +48,6 @@
         "name": "Github"
     },
     {
-        "image": "../assets/images/php.png",
-        "alt": "Logo PHP",
-        "className": "",
-        "name": "PHP"
-    },
-    {
         "image": "../assets/images/mysql.png",
         "alt": "Logo MySQL",
         "className": "",
