@@ -75,8 +75,17 @@
         "color": "#f9f852",
         "title": "Step Exercice",
         "langage": "Angular",
-        "consignes": "Un projet pour acquérir les bases d'Angular, en suivant la maquette fournie d'un ancien projet de STEP, la consigne était de reproduire le site en single page. Il faut découper la maquette en différents éléments pour un rendu dynamique. PROJET EN COURS.",
+        "consignes": "Un projet pour acquérir les bases d'Angular, en suivant la maquette fournie d'un ancien projet de STEP, la consigne était de reproduire le site en single page. Il faut découper la maquette en différents éléments pour un rendu dynamique. Sauf la page Contact.",
         "link": "https://step-exercice.vercel.app/",
+        "icone": "assets/images/site.png",
+        "alt": "site"
+    },
+    {
+        "color": "#3ae374",
+        "title": "Le Louisabella",
+        "langage": "React",
+        "consignes": "Site du restaurant: bouton pour afficher le midi le menu du jour, la carte les week-end. Réservation faite via la boite mail du restaurant avec captcha. Carte interactive annonçant l'emplacement du restaurant et liens vers les réseaux sociaux.",
+        "link": "https://lelouisabella.fr/",
         "icone": "assets/images/site.png",
         "alt": "site"
     }
