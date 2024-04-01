@@ -86,7 +86,7 @@
         "langage": "React",
         "consignes": "Site du restaurant: bouton pour afficher le midi le menu du jour, la carte les week-end. Réservation faite via la boite mail du restaurant avec captcha. Carte interactive annonçant l'emplacement du restaurant et liens vers les réseaux sociaux.",
         "link": "https://lelouisabella.fr/",
-        "icone": "assets/images/site.png",
+        "icone": "assets/images/resto.png",
         "alt": "site"
     }
 ]
