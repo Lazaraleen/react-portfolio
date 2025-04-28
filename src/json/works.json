@@ -79,5 +79,23 @@
         "link": "https://step-exercice.vercel.app/",
         "icone": "assets/images/site.png",
         "alt": "site"
+    },
+    {
+        "color": "#3ae374",
+        "title": "Le Louisabella",
+        "langage": "non divulgué",
+        "consignes": "Demande d'une single page en suivant le cahier des charges du restaurant",
+        "link": "https://lelouisabella.fr/",
+        "icone": "assets/images/resto.png",
+        "alt": "le louisabella"
+    },
+    {
+        "color": "#ffa642",
+        "title": "Lou Chabrot",
+        "langage": "non divulgué",
+        "consignes": "Demande d'une single page en suivant le cahier des charges du restaurant",
+        "link": "https://lou-chabrot.fr/",
+        "icone": "assets/images/resto2.png",
+        "alt": "lou chabrot"
     }
 ]
