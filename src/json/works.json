@@ -102,7 +102,7 @@
         "color": "#7252f8",
         "title": "Star Match3",
         "langage": "React",
-        "consignes": "Un projet visant à refaire un jeu de Match3 avec des étoiles colorées",
+        "consignes": "Un projet visant à refaire un jeu de Match3 avec des étoiles colorées. Version pour ordinateur.",
         "link": "https://starmatch3.netlify.app/",
         "icone": "assets/images/puzzle.png",
         "alt": "Star Match 3"
