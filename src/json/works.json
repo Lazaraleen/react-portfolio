@@ -97,5 +97,14 @@
         "link": "https://lou-chabrot.fr/",
         "icone": "assets/images/resto2.png",
         "alt": "lou chabrot"
+    },
+    {
+        "color": "#7252f8",
+        "title": "Star Match3",
+        "langage": "React",
+        "consignes": "Un projet visant à refaire un jeu de Match3 avec des étoiles colorées",
+        "link": "https://starmatch3.netlify.app/",
+        "icone": "assets/images/puzzle.png",
+        "alt": "Star Match 3"
     }
 ]
